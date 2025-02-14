@@ -1,0 +1,8 @@
+
+ User Registration – Users can create an account with a username, password, and email.
+ Password Hashing – Uses bcrypt to securely hash and store passwords.
+ OTP Generation – A 6-digit OTP(One Time Password) is generated for login verification.
+ Email OTP Sending – Sends the OTP to the registered email via SMTP (Gmail SMTP server).
+ User Login – Users must enter their username, password, and OTP to log in.
+ Data Storage – User details are saved in a JSON file for persistence.
+ Switch Between Forms – Easy transition between login and registration forms in Tkinter GUI.
